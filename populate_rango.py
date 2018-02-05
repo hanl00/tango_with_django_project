@@ -33,15 +33,15 @@ def populate():
         "views":999},
         {"title":"How to Tango with Django",
         "url":"http://www.tangowithdjango.com/",
-         "views":125} ]
+        "views":125} ]
 
     other_pages = [
         {"title":"Bottle",
         "url":"http://bottlepy.org/docs/dev/",
-         "views":575},
+        "views":575},
         {"title":"Flask",
-        "url":"http://flask.pocoo.org"'
-         "views":333} ]
+        "url":"http://flask.pocoo.org",
+        "views":333} ]
 
     cats = {"Python": {"pages": python_pages, "views": 128, "likes": 64},
             "Django": {"pages": django_pages, "views": 64, "likes": 32}, "Other Frameworks": {"pages": other_pages,"views": 32, "likes": 16}}
