@@ -55,7 +55,7 @@ def show_category(request, category_name_slug):
         context_dict['category'] = None
         context_dict['pages'] = None
     # Go render the response and return it to the client.
-    return render(request, 'rango/category.html', context_dict)
+    return render(request, 'rango/category.html', {'form': form})
 
 def add_category(request):
     form = CategoryForm()
@@ -73,6 +73,7 @@ def add_category(request):
             # But since the most recent category added is on the index page
             # Then we can direct the user back to the index page.
             return index(request)
+            print(cat, cat.slug)
         else:
             # The supplied form contained errors -
             # just print them to the terminal.
