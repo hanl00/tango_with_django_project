@@ -11,7 +11,7 @@
     </h1>
 
     <div>
-    hey there partner!
+    Hey there partner!
     </div>
 
     <h2>
@@ -23,9 +23,8 @@
     <ul>
 	{% for category in categories %}
             <li>
-                <a href="{% url 'show_category' category.slug %}">
-                    {{ category.name }}
-                </a>
+                <a href="{% url 'show_category' category.slug %}">{{ category.name }}</a>
+
             </li>
 	{% endfor %}
     </ul>
