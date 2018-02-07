@@ -1,6 +1,7 @@
 from django.db import models
 from django.template.defaultfilters import slugify
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User
+
 
 
 # Create your models here.
@@ -16,7 +17,7 @@ class Category(models.Model):
         super(Category, self).save(*args, **kwargs)
         
     class Meta:
-        verbose_name_plural = 'Categories'
+        verbose_name_plural = 'categories'
 
         
     def __str__(self): # For Python 2, use __unicode__ too
