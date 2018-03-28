@@ -9,8 +9,8 @@ GlasgowRPG is a casual text-base RPG for the students of University of Glasgow. 
 
 ### PythonAnywhere URL:
 
-* [Christopher's PythonAnywhere] - Play the Game !
-* [Han's PythonAnywhere] - Backup 
+* Christopher's PythonAnywhere - http://2030808m.pythonanywhere.com/ - Play the Game !
+* Han's PythonAnywhere - http://nickhan123.pythonanywhere.com/ - Backup 
 
 
 ### Developed by:
@@ -25,9 +25,4 @@ GlasgowRPG is a casual text-base RPG for the students of University of Glasgow. 
 - Twine http://twinery.org/
 - StackOverflow https://stackoverflow.com/
 
-
-
-   [Christopher's PythonAnywhere]: <http://2030808m.pythonanywhere.com/ >
-   [Han's PythonAnywhere]: <http://nickhan123.pythonanywhere.com/ >
-   
 
